@@ -1,20 +1,21 @@
 # Progress Log
 
-## Week 1 (March 29 - April 4, 2026) see[week_01_report](week_01_report)
+## Week 1 (March 29 - April 4, 2026)
+* Python foundations (PY4E chap 1-10)
+* Numpy fundamentals
+* Probability and statistics review
+* Quant interview prep: A Practical Guide to Quantitative Finance Interviews Chap 1-2
 
-### Focus:
-- Python basics (PY4E chap 1-10), Numpy fundamentals, initial Pandas exposure
-- Probability and statistics review
-- Greenbook Chap 1-2
 
+## Week 2 (April 5 - 12, 2026)
+* Numpy advanced
+* Pandas, SQL fundamentals
+* Linear algebra review
+* Probability and stats continued
+* Quant interview book Chap 3
 
-## Week 2 (April 5 - 12, 2026) see[week_02_report](week_02_report)
-
-### Focus:
-- Numpy advanced, Pandas, SQL
-- Initial ML exposure
-- Probability and stats continued
-
-### Project:
-- Initial data analysis project
+## Week 3 (April 13 - 20, 2026)
+* **Project 1**: Times Higher Education university rankings analysis
+* Machine Learning fundamentals
+* Quant interview book Chap 4
 
