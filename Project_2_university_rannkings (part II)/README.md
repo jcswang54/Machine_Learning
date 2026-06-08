@@ -23,8 +23,9 @@ providing the geometric justification for why logistic regression suffices
   hence the boundary is real but not a hard cut in feature space.
 
 ## Mathematical angle
-The Gram matrix X^TX and the PCA covariance matrix (1/n)X^TX are proportional. 
-Therefore, they have same eigenvectors and proportional eigenvalues. 
+The Gram matrix X^TX and the PCA covariance matrix (1/n)X^TX are proportional,
+where X is the (n x 5) data matrix of centered score columns.
+Therefore, they have the same eigenvectors and proportional eigenvalues. 
 Both measure the same geometric fact: how many independent directions contain meaningful variation in the data. 
 
 Note that low dimensionality alone does not guarantee linear separability. 

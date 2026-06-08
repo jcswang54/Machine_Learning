@@ -19,3 +19,11 @@
 * Machine Learning fundamentals
 * Quant interview book Chap 4
 
+## Week 3+ (April 21 - May 31, 2026)
+* Paused for defense preparation, graduation, and commencement
+
+## Week 4 (June 1 - 7, 2026)
+* **Project 2**: Classification and clustering on university rankings
+* sklearn: Logistic Regression, Decision Tree, Random Forest, PCA, K-Means
+* Quant interview book continued
+
