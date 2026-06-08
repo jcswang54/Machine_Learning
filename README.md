@@ -7,7 +7,7 @@ I am transitioning to ML and quantitative research.
 	* Data analysis of the Times Higher Education rankings dataset (2,603 universities, 2011–2016).
 	* pandas · NumPy · SQLite · correlation matrix as Gram matrix
 
-* [University Rankings Analysis (Part II)](./Project_2_university_rankings/README.md)
+* [University Rankings Analysis (Part II)](./Project_2_university_rankings (Part II)/README.md)
     * Classification and clustering on the same dataset (supervised and unsupervised learning)
     * scikit-learn · Logistic Regression · Random Forest · PCA · K-Means
   
