@@ -1,19 +1,55 @@
-# Machine Learning - JinCheng  Wang
-I am a math PhD candidate in differential geometry and hyperbolic dynamics at Tufts University.
-I am transitioning to ML and quantitative research.
+# Machine Learning Portfolio — JinCheng Wang
 
-## Projects
-* [University Rankings Analysis (Part I)](./Project_1_university_rankings/README.md)
-	* Data analysis of the Times Higher Education rankings dataset (2,603 universities, 2011–2016).
-	* pandas · NumPy · SQLite · correlation matrix as Gram matrix
-* [University Rankings Analysis (Part II)](./Project_2_university_rankings/README.md)
-    * Classification and clustering on the same dataset (supervised and unsupervised learning)
-    * scikit-learn · Logistic Regression · Random Forest · PCA · K-Means
+Mathematics PhD building machine learning and AI applications.
+
+This repository contains end-to-end machine learning projects spanning
+- Data Analysis
+- Classical Machine Learning
+- Scientific Machine Learning
+- Neural ODEs
+
+using Python, PyTorch, scikit-learn, SciPy, and SQL.  
+
+Each project includes source code, documentation, visualizations, and reproducible experiments.
+## Featured Projects
+
+
+* **Project 3:** [Neural ODE Learning Geodesic Flow](./Project_3_geodesic_neural_ode/)
+    * Trained a Neural ODE to learn continuous geodesic dynamics from trajectory data
+    ![Neural ODE trajectory](./Project_3_geodesic_neural_ode/figures/trajectory_overlay.png)
+
+    * **Skills:** PyTorch, torchdiffeq, SciPy, Neural ODE, Differential Equations
+* **Project 2:** [Machine Learning for University Ranking Prediction](./Project_2_university_rankings/README.md)
+    * Predicted Top-100 universities using supervised and unsupervised machine learning on the Times Higher Education rankings dataset
+    * **Skills:** scikit-learn, Logistic Regression, Random Forest, PCA, K-Means
+* **Project 1:** [Data Analysis for University Rankings](./Project_1_university_rankings/README.md)
+	* Data analysis of the Times Higher Education rankings dataset (2,603 universities, 2011–2016)
+    * Demonstrated that the correlation matrix is a Gram matrix, revealing a low-dimensional structure in the ranking data
+	* **Skills:** pandas, NumPy, SQL
   
-## Skills
-* Python, Numpy, Pandas, SQL
-* scikit-learn, Matplotlib
-* Mathematical research: Differential Geometry, Dynamical Systems
+## Tech Stack
+**Languages**
+- Python • SQL
 
-## Progress Log
-See [progress_log.md](progress_log.md)   
+**Machine Learning**
+
+- PyTorch • scikit-learn • torchdiffeq
+
+**Data**
+
+- NumPy • SciPy • pandas • Matplotlib
+
+**Tools**
+
+- Git • GitHub • SQLite • Jupyter
+
+## Repository Structure
+```text
+Machine_Learning/
+├── Project_1_university_rankings (Data Analysis)
+├── Project_2_university_rankings (Machine Learning)
+├── Project_3_geodesic_neural_ode (Scientific ML)
+└── README.md
+```
+
+Additional machine learning projects will be added as the portfolio continues to grow.

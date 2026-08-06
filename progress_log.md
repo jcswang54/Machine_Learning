@@ -27,3 +27,11 @@
 * sklearn: Logistic Regression, Decision Tree, Random Forest, PCA, K-Means
 * Quant interview book continued
 
+## Week 4+ (June 8 - July 26, 2026)
+* Paused for PhD defense and article submission for peer review
+
+## Week 5 (July 27 - August 2, 2026)
+* **Project 3**: Neural ODEs for learning geodesic flows using PyTorch
+
+
+
