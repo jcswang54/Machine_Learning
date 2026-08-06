@@ -16,8 +16,6 @@ Each project includes source code, documentation, visualizations, and reproducib
 
 * **Project 3:** [Neural ODE Learning Geodesic Flow](./Project_3_geodesic_neural_ode/)
     * Trained a Neural ODE to learn continuous geodesic dynamics from trajectory data
-    ![Neural ODE trajectory](./Project_3_geodesic_neural_ode/figures/trajectory_overlay.png)
-
     * **Skills:** PyTorch, torchdiffeq, SciPy, Neural ODE, Differential Equations
 * **Project 2:** [Machine Learning for University Ranking Prediction](./Project_2_university_rankings/README.md)
     * Predicted Top-100 universities using supervised and unsupervised machine learning on the Times Higher Education rankings dataset
