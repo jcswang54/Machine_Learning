@@ -1,0 +1,149 @@
+[
+  {
+    "case": "simple_retrieval",
+    "question": "What was NVIDIA's revenue in fiscal 2026?",
+    "claims": [
+      {
+        "claim": "NVIDIA reported fiscal 2026 revenue of $215.938 billion.",
+        "citation": "NVIDIA 2026 10-K, Page 51",
+        "citation_correct": true,
+        "citation_complete": true,
+        "grounded": true,
+        "notes": "The reported revenue figure is directly supported by the cited page."
+      }
+    ]
+  },
+  {
+    "case": "broad_question",
+    "question": "What are the major risks to NVIDIA's future growth?",
+    "claims": [
+      {
+        "claim": "Export controls can restrict downstream use, resale, repair, or transfer; disrupt NVIDIA's supply and distribution channels; and impair NVIDIA's and its customers' ability to provide services.",
+        "citation": "NVIDIA 2026 10-K, Page 26",
+        "citation_correct": true,
+        "citation_complete": true,
+        "grounded": true
+      },
+      {
+        "claim": "Export controls may disproportionately affect NVIDIA, encourage customers to design out U.S. semiconductors, and shift purchases toward competitors.",
+        "citation": "NVIDIA 2026 10-K, Page 28",
+        "citation_correct": true,
+        "citation_complete": true,
+        "grounded": true
+      },
+      {
+        "claim": "Restrictions on data-center GPUs could reduce demand for related networking products.",
+        "citation": "NVIDIA 2026 10-K, Page 28",
+        "citation_correct": true,
+        "citation_complete": true,
+        "grounded": true
+      },
+      {
+        "claim": "AI infrastructure constraints could arise from insufficient data-center capacity, energy, and customer capital.",
+        "citation": "NVIDIA 2026 10-K, Page 16",
+        "citation_correct": true,
+        "citation_complete": true,
+        "grounded": true
+      },
+      {
+        "claim": "Resource shortages could delay deployments, reduce the scale of accelerated-computing and AI adoption, and constrain future revenue and financial performance.",
+        "citation": "NVIDIA 2026 10-K, Page 16",
+        "citation_correct": true,
+        "citation_complete": true,
+        "grounded": true,
+        "notes": "Reasonable analytical implication from the cited evidence."
+      },
+      {
+        "claim": "Competition could adversely affect NVIDIA's market share and financial results.",
+        "citation": "NVIDIA 2026 10-K, Page 14",
+        "citation_correct": true,
+        "citation_complete": true,
+        "grounded": true
+      },
+      {
+        "claim": "Export controls may compound competitive pressure by favoring competitors whose chips fall outside the restrictions.",
+        "citation": "NVIDIA 2026 10-K, Page 28",
+        "citation_correct": true,
+        "citation_complete": true,
+        "grounded": true
+      },
+      {
+        "claim": "NVIDIA's AI-market position has attracted regulatory interest across multiple jurisdictions, including the EU, U.S., U.K., South Korea, Japan, and China.",
+        "citation": "NVIDIA 2026 10-K, Page 25",
+        "citation_correct": true,
+        "citation_complete": true,
+        "grounded": true
+      },
+      {
+        "claim": "NVIDIA may face higher compliance costs from evolving antitrust and cybersecurity regulation.",
+        "citation": "NVIDIA 2026 10-K, Page 25",
+        "citation_correct": true,
+        "citation_complete": true,
+        "grounded": true
+      },
+      {
+        "claim": "Changes in multi-year cloud-service agreements and weak software monetization could affect revenue, expenses, development timelines, and profitability.",
+        "citation": "NVIDIA 2026 10-K, Page 14",
+        "citation_correct": true,
+        "citation_complete": false,
+        "grounded": true
+      }
+    ]
+  },
+  {
+    "case": "multi_part_question",
+    "question": "How did NVIDIA's revenue and operating income change from fiscal 2025 to fiscal 2026, and what factors drove those changes?",
+    "claims": [
+      {
+        "claim": "Revenue increased 65%, from $130.5 billion in fiscal 2025 to $215.9 billion in fiscal 2026.",
+        "citation": "NVIDIA 2026 10-K, Page 51",
+        "citation_correct": true,
+        "citation_complete": true,
+        "grounded": true
+      },
+      {
+        "claim": "Revenue growth was driven by accelerated computing and AI, including growth in Data Center computing and networking.",
+        "citation": "NVIDIA 2026 10-K, Page 40",
+        "citation_correct": true,
+        "citation_complete": true,
+        "grounded": true
+      },
+      {
+        "claim": "Graphics growth was driven by Blackwell sales.",
+        "citation": "NVIDIA 2026 10-K, Page 40",
+        "citation_correct": true,
+        "citation_complete": true,
+        "grounded": true
+      },
+      {
+        "claim": "Operating income increased 60%, from $81.5 billion to $130.4 billion.",
+        "citation": "NVIDIA 2026 10-K, Page 51",
+        "citation_correct": true,
+        "citation_complete": true,
+        "grounded": true
+      },
+      {
+        "claim": "Compute & Networking segment operating income rose 57% to $130.1 billion, while Graphics segment operating income rose 80% to $9.2 billion.",
+        "citation": "NVIDIA 2026 10-K, Page 40",
+        "citation_correct": true,
+        "citation_complete": true,
+        "grounded": true
+      },
+      {
+        "claim": "Compute & Networking operating-income growth was partially offset by a $4.5 billion charge related to H20 excess inventory and purchase obligations.",
+        "citation": "NVIDIA 2026 10-K, Page 37",
+        "citation_correct": true,
+        "citation_complete": true,
+        "grounded": true
+      },
+      {
+        "claim": "NVIDIA converted strong Blackwell-led revenue growth into substantial operating-income growth, although operating income grew slightly slower than revenue, partly reflecting the H20-related charge and a 41% increase in operating expenses.",
+        "citation": "NVIDIA 2026 10-K, Pages 37 and 40",
+        "citation_correct": false,
+        "citation_complete": false,
+        "grounded": true,
+        "notes": "Supported by the cited evidence, with a minor analytical inference."
+      }
+    ]
+  }
+]

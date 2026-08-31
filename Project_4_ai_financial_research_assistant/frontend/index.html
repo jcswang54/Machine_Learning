@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NVIDIA Financial Research Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>NVIDIA Financial Research Assistant</h1>
+
+        <p class="subtitle">
+            Ask questions about NVIDIA's 10-K.
+        </p>
+
+        <textarea
+            id="question"
+            placeholder="Ask a financial research question..."
+        ></textarea>
+
+        <button id="ask-button">
+            Ask
+        </button>
+
+        <div id="loading"></div>
+
+        <div id="answer-section">
+            <h2>Answer</h2>
+            <div id="answer"></div>
+
+            <h2>Sources</h2>
+            <div id="sources"></div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

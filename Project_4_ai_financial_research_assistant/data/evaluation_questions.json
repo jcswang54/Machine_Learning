@@ -1,0 +1,52 @@
+[
+  {
+    "id": "Q1",
+    "question": "How concentrated is NVIDIA's revenue among its customers?",
+    "expected_pages": [23, 41, 78, 67]
+  },
+  {
+    "id": "Q2",
+    "question": "What are NVIDIA's major competitive risks?",
+    "expected_pages": [25, 15,  9 ]
+  },
+  {
+    "id": "Q3",
+    "question": "How have export controls affected NVIDIA?",
+    "expected_pages": [27, 28, 11]
+  },
+  {
+    "id": "Q4",
+    "question": "How dependent is NVIDIA on third-party manufacturers?",
+    "expected_pages": [20, 21]
+  },
+    {
+    "id": "Q5",
+    "question": "What are NVIDIA's major supply-chain risks?",
+    "expected_pages":  [28, 36, 26, 17, 16 ]
+  },
+  {
+    "id": "Q6",
+    "question": "What percentage of revenue comes from international customers?",
+    "expected_pages": [19,  78, 41 ]
+  },
+  {
+    "id": "Q7",
+    "question": "What are NVIDIA's major operating segments?",
+    "expected_pages": [36, 5, 77]
+  },
+  {
+    "id": "Q8",
+    "question": "What risks does NVIDIA face from energy availability?",
+    "expected_pages": [21, 22, 36, 16 ]
+  } ,
+   {
+    "id": "Q9",
+    "question": "What are NVIDIA's major regulatory risks?",
+    "expected_pages": [25, 26, 27, 28, 29, 31 ]
+  },
+  {
+    "id": "Q10",
+    "question": "How dependent is NVIDIA on the data-center market?",
+    "expected_pages": [ 79]
+  }
+]
